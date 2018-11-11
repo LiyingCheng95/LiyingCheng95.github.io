@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am currently a 2nd year master studying CS. I am extremely interested in "intelligence".
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[bliu0201@gmail.com](mailto:bliu0201@gmail.com)
