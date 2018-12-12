@@ -1,18 +1,104 @@
----
-layout: default
----
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bo Liu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
-      <div class="entry">
-        {{ post.excerpt }}
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <!-- Loading custom UI -->
+    <link href="css/custom.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+    <div class="row">
+      <div class="header">Bo Liu</div>
+      <div class="span10"></div>
+    </div>
+    <div class="row">
+      <div class="span12">
+        <div class="content">
+          <img src="images/img/bo.jpeg" class="fright" style="transform:rotate(90deg);"/>
+          <div class="desc-block">
+            <p>
+                I am a Master student of Computer Science at <a href="http://www.stanford.edu">Stanford University</a>. I have a strong interest in neuroscience and machine learning. My current research interest is to develop system and theory that integrate perception, learning and control for general-purpose robots. I am very honored to work with <a href="http://vision.stanford.edu/feifeili/">Prof. Fei-Fei Li</a> and <a href="https://web.stanford.edu/~yukez/">Yuke Zhu</a> at <a href="http://pair.stanford.edu">Stanford People, AI & Robots Group</a> on robot planning problems. I have also worked with <a href="https://cs.stanford.edu/people/jure/">Prof. Jure Leskovec</a> on massive data mining for women's conception prediction.
+            </p>
+            <p>
+        Prior to Stanford, I received a BSc. degree in Computer Engineering from <a href="http://www.jhu.edu/">Johns Hopkins University</a>, where I worked with <a href="http://www.cs.jhu.edu/~jason/">Prof. Jason Eisner</a> on generative syntactic parsing.</p>
+            </p>
+          </div>
+
+          <p><strong>Email:</strong> bliu0201@gmail.com</p>
+          <p>
+			<div class="resources">
+	            <a href="documents/cv.pdf">[CV]</a>&nbsp;&nbsp;
+				<a href="https://github.com/Cranial-XIX">[GitHub]</a>
+			</div>
+          </p>
+ 
+          <hr />
+
+          <h3>Publication</h3>
+          <div class="list-pub-img">
+            <ul>
+              <li>
+                <div class="publication">
+                  <div class="title" style="font-size:1.05em;">Predicting pregnancy using large-scale data from a women’s health tracking mobile application</div>
+                  <div class="authors">Bo Liu*, Shuyang Shi*, Yongshang Wu*, Daniel Thomas, Laura Symul, Emma Pierson, Jure Leskovec</div>
+                  <div class="venue">arXiv:1812.02222</div>
+                  <div class="resources">
+                    <a href="https://arxiv.org/abs/1812.02222">[arxiv]</a>
+                </div>
+              </li>
+          </div>
+          
+          <hr />
+          
+          <h3>Teaching Experience</h3>
+          <div class="list-3">
+            <ul>
+              <li>
+                <img src="images/img/jhu.png" width="30%" height="30%"/>
+                <h4>Teaching Assistant</h4>
+                <h4><small>Fall 2016 | Johns Hopkins, MD, USA</small></h4>
+                <h5>EN 601.465/665: Natural Language Processing</h5> 
+                <h4><small>Fall 2015 | Johns Hopkins, MD, USA</small></h4>
+                <h5>EN 600.363/463: Algorithms I</h5> 
+              </li>
+            </ul>
+          </div>
+          
+          <hr />
+          
+          <h3>Working Experience</h3>
+          <div class="list-3">
+            <ul>
+              <li>
+                <img src="images/img/baidu.png"/>
+                <h4>Research Engineer Intern</h4>
+                <h4><small>Jun - Sept 2018 | Sunnyvale, CA, USA</small></h4>
+                <h5>Baidu</h5> 
+              </li>
+              <li>
+                <img src="images/img/google.png"/>
+                <h4>Software Engineer & Engineer Practicum Intern</h4>
+                <h4><small>May - Aug 2015/2016 | Los Angeles, CA, USA</small></h4>
+                <h5>Google</h5> 
+              </li>
+            </ul>
+          </div>
+          
+          <hr />
+        </div>
       </div>
+	  </div>
+  </body>
+</html>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
